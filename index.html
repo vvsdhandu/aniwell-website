@@ -24,6 +24,7 @@
                 <li><a href="#app">App</a></li>
                 <li><a href="#features">Features</a></li>
                 <li><a href="#team">Team</a></li>
+                <li><a href="#order" class="nav-order-link">Order Now</a></li>
             </ul>
             <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
                 <span></span>
@@ -45,8 +46,8 @@
             <h1>Your Pet's Health,<br><span class="highlight">Always in View</span></h1>
             <p class="hero-subtitle">AniWell is a smart wearable that monitors your pet's activity, sleep, mood, stress, and location — like Apple Health, but for the ones who can't tell you how they feel.</p>
             <div class="hero-ctas">
-                <a href="#product" class="btn btn-primary">Explore the Tracker</a>
-                <a href="#app" class="btn btn-outline">See the App</a>
+                <a href="#order" class="btn btn-primary">Buy Now</a>
+                <a href="#product" class="btn btn-outline">Explore the Tracker</a>
             </div>
         </div>
     </section>
@@ -218,6 +219,36 @@
         </div>
     </section>
 
+    <!-- Order Section -->
+    <section class="section order-section" id="order">
+        <div class="container">
+            <div class="section-header">
+                <h2>Order Your AniWell</h2>
+                <p>Get the AniWell Tracker and start monitoring your pet's health today.</p>
+            </div>
+            <div class="order-card">
+                <div class="order-card-image">
+                    <img src="assets/photos/product/PHOTO-2026-03-01-10-39-26.jpg" alt="AniWell Tracker">
+                </div>
+                <div class="order-card-details">
+                    <h3>AniWell Tracker</h3>
+                    <p class="order-description">Lightweight, waterproof smart collar device with GPS tracking, health monitoring, and AI-powered insights. Includes free access to the AniWell app.</p>
+                    <ul class="order-includes">
+                        <li>AniWell Tracker device</li>
+                        <li>Universal collar clip</li>
+                        <li>USB-C charging cable</li>
+                        <li>Free AniWell app access</li>
+                    </ul>
+                    <div class="order-price">
+                        <span class="price">$149</span>
+                        <span class="price-note">Free shipping</span>
+                    </div>
+                    <a href="mailto:hello@aniwell.com?subject=AniWell%20Tracker%20Order" class="btn btn-primary btn-lg order-btn">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- CTA Section -->
     <section class="section cta-section">
         <div class="container">
@@ -244,6 +275,7 @@
                         <li><a href="#product">Tracker</a></li>
                         <li><a href="#app">App</a></li>
                         <li><a href="#features">Features</a></li>
+                        <li><a href="#order">Order</a></li>
                     </ul>
                 </div>
                 <div class="footer-links">
@@ -293,7 +325,7 @@
             });
         }, observerOptions);
 
-        document.querySelectorAll('.product-card, .product-feature, .app-screen, .feature-row, .team-card').forEach(el => {
+        document.querySelectorAll('.product-card, .product-feature, .app-screen, .feature-row, .team-card, .order-card').forEach(el => {
             observer.observe(el);
         });
     </script>
